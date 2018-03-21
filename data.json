@@ -1,0 +1,33 @@
+{
+"basics":{
+  "photo":"image98.png",
+  "name":"Sushma",
+  "email":"sushmachindanur99@gmail.com"
+},
+"education":[
+  {
+  "course":"B.tech(Computer Science And Engineering)",
+  "college":[
+    "GPullaiah College Of Engineering And Technology",
+    "2015-2019",
+    "75"
+    ]
+  },
+  {
+    "course":"Intermediate(MPC)",
+    "college":[
+      "Narayana College",
+      "2013-2015",
+      "98"
+      ]
+  },
+  {
+    "course":"SSC",
+    "college":[
+      "Golden Bells",
+      "2012-2013",
+      "97"
+      ]
+  }
+]
+}
