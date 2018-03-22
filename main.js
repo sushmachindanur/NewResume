@@ -19,6 +19,7 @@ jsondata("data.json",function(text){
  console.log(data);
  ba(data.basics);
  educ(data.education);
+ skills(data.skills);
  })
  //main div class calling from html
 var main=document.querySelector('.main');
@@ -81,4 +82,40 @@ function educ(education)
     }
 
   }
+/*  var table=document.createElement("table");
+  table.classList.add("table");
+  edu.appendChild(table);
+  var row1="";
+  var col="";
+  for(i=0;i<education.length;i++){
+
+for(j=0;j<education[i].college.length;j++){
+col=col+"<td>"+education[i].college[j]+"</td>";
+
+
+
+}
+row1=row1+"<tr><td>"+education[i].course+"</td></tr>"+col;
+
+
+
+  }
+  table.innerHTML=row1;*/
+ }
+ function skills(skills){
+var skill_title= document.createElement("h1");
+skill_title.textContent="Skills";
+right.appendChild(skill_title);
+//skill_title.appendChild(document.createElement("HR"));
+var table=document.createElement("table");
+table.classList.add("table");
+skill_title.appendChild(table);
+var row="";
+for(i=0;i<skills.length;i++){
+row= row+"<tr><td>"+skills[i].name+"</td><td>"+skills[i].value+"</td></tr>";
+}
+table.innerHTML=row;
+
+
+
  }

@@ -1,7 +1,7 @@
 {
 "basics":{
   "photo":"image98.png",
-  "name":"Sushma",
+  "name":"Sushma Chindanur",
   "email":"sushmachindanur99@gmail.com"
 },
 "education":[
@@ -29,5 +29,20 @@
       "97"
       ]
   }
+],
+"skills":[
+  {
+    "name":"Web Technologies",
+    "value":"HTML,CSS"
+  },
+  {
+    "name":"Programming Languages",
+    "value":"c,c++,java"
+  },
+  {
+    "name":"Web Technologies",
+    "value":"Windows,Ubuntu"
+  }
+
 ]
 }
